@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Local-first data & secrets — never commit real user data
+.careeros/
+*.db
+*.sqlite
+*.sqlite3
+secrets/
+google.json
+token.json
+credentials.json
+careeros.yaml
+.env
+.env.*
+
+# Real (non-redacted) eval data stays local
+evals/datasets/private/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
